@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.name             = 'bugly_crash'
   s.version          = '0.0.1'
   s.summary          = 'bugly crash plugin'
+  s.static_framework = true
   s.description      = <<-DESC
 bugly crash plugin
                        DESC
